@@ -1,0 +1,23 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "python",
+    "editor.formatOnSave": true,
+    "files.exclude": { "**/__pycache__": true, "**/node_modules": true, "**/*.pyc": true }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Backend: Flask Server",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/backend/app.py",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}/backend"
+      }
+    ]
+  }
+}
